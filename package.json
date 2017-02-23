@@ -1,0 +1,20 @@
+{
+  "name": "appium-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ios-simple.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ios": "mocha ios-simple.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "colors": "^1.1.2",
+    "mocha": "^3.2.0",
+    "underscore": "^1.8.3",
+    "wd": "^1.1.3"
+  }
+}
